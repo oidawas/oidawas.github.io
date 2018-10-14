@@ -8,7 +8,7 @@ var bday = new Date ('05 Mar 1998 23:00')
 var y = Math.round(today / days);
 var x = Math.round(bday.getTime() / days)
 var dif = y-x
-window.document.write("<p>Tag </p>" + dif);
+document.getElementById("demo").innerHTML = "<p>Tag </p>" + dif;
 /* var birthday = new Date('Thu Mar 05 1998 23:00:00 GMT+0100 (W. Europe Standard Time)');
 var date = Date(Date.now());
 a = date.toString();
