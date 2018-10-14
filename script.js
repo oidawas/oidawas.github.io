@@ -9,4 +9,4 @@ var y = Math.round(today / days);
 var x = Math.round(bday.getTime() / days)
 var dif = y-x
 
-document.getElementById("demo").innerHTML = dif;
+document.getElementById("days").innerHTML = dif + ".";
